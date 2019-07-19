@@ -1,6 +1,6 @@
 [package]
 name = "random-access-memory"
-version = "1.0.0"
+version = "1.0.1"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/datrs/random-access-memory"
 documentation = "https://docs.rs/random-access-memory"
@@ -10,7 +10,7 @@ readme = "README.md"
 
 [dependencies]
 failure = "0.1.1"
-random-access-storage = "2.0.0"
+random-access-storage = "2.0.1"
 
 [dev-dependencies]
 quickcheck = "0.8.1"

@@ -193,7 +193,7 @@ impl RandomAccess for RandomAccessMemory {
     unimplemented!()
   }
 
-  fn len(&mut self) -> Result<usize, Self::Error> {
+  fn len(&self) -> Result<usize, Self::Error> {
     Ok(self.length)
   }
 
